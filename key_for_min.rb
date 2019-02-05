@@ -5,7 +5,6 @@ def key_for_min_value(name_hash)
   if name_hash = {}
     nil
   else
-    # name_hash = {:key_one => value_one, :key_two => value_two}
     name_hash_array = name_hash.to_a.flatten(2)
     min_value = name_hash_array[1]
     min_key = name_hash_array[0]
