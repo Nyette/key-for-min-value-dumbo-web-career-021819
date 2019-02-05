@@ -4,7 +4,7 @@
 require 'pry'
 
 def key_for_min_value(name_hash)
-  if name_hash = {}
+  if name_hash == {}
     nil
   else
     name_hash_array = name_hash.to_a.flatten(2)
